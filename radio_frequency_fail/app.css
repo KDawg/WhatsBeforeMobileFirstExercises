@@ -1,0 +1,53 @@
+
+.app-page {
+	background-color: #E67E22;
+	height: 100%;
+}
+
+
+.toolbar {
+	background-color: #3498DB;
+	display: -webkit-box;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+
+.toolbar label {
+	color: white;
+	display: -webkit-box;
+	height: 35px;
+	position: relative;
+	text-align: center;
+	width: 33%;
+}
+
+
+.toolbar label input[type=radio]:checked {
+	border-bottom: 5px solid #F1C40F;
+}
+
+
+.toolbar label input[type=radio] {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	bottom: 0;
+	display: block;
+	height: 35px;
+	left: 0;
+	margin: 0;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+
+
+.toolbar label span {
+	height: 35px;
+	line-height: 36px;
+	position: absolute;
+	text-transform: uppercase;
+	width: 100%;
+}
